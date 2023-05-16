@@ -1,0 +1,76 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "align_multiline_comment": {
+            "comment_type": "phpdocs_only"
+        },
+        "array_indentation": true,
+        "array_push": true,
+        "array_syntax": {
+            "syntax": "short"
+        },
+        "backtick_to_shell_exec": true,
+        "blank_line_after_namespace": true,
+        "blank_line_after_opening_tag": true,
+        "cast_spaces": {
+            "space": "single"
+        },
+        "class_reference_name_casing": true,
+        "clean_namespace": true,
+        "compact_nullable_typehint": true,
+        "concat_space": {
+            "spacing": "none"
+        },
+        "constant_case": {
+            "case": "lower"
+        },
+        "control_structure_braces": true,
+        "control_structure_continuation_position": {
+            "position": "same_line"
+        },
+        "curly_braces_position": {
+            "control_structures_opening_brace": "same_line",
+            "functions_opening_brace": "same_line",
+            "anonymous_functions_opening_brace": "same_line",
+            "classes_opening_brace": "same_line",
+            "anonymous_classes_opening_brace": "same_line"
+        },
+        "declare_parentheses": true,
+        "elseif": true,
+        "empty_loop_condition": {
+            "style": "while"
+        },
+        "explicit_string_variable": true,
+        "fully_qualified_strict_types": true,
+        "function_declaration": {
+            "closure_fn_spacing": "none",
+            "closure_function_spacing": "none"
+        },
+        "function_typehint_space": true,
+        "global_namespace_import":{
+            "import_classes": true,
+            "import_constants": null,
+            "import_functions": null
+        },
+        "integer_literal_case": true,
+        "is_null": true,
+        "lambda_not_used_import": true,
+        "logical_operators": true,
+        "lowercase_cast": true,
+        "lowercase_keywords": true,
+        "mb_str_functions": true,
+        "method_chaining_indentation": true,
+        "no_empty_comment": true,
+        "ternary_operator_spaces": true,
+        "ternary_to_null_coalescing": true,
+        "trim_array_spaces": true,
+        "types_spaces":{
+            "space": "none"
+        },
+        "unary_operator_spaces": true,
+        "void_return": true,
+        "whitespace_after_comma_in_array":{
+            "ensure_single_space": true
+        }
+    }
+}
